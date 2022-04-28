@@ -5,7 +5,7 @@ namespace App\Models;
 use \DateTimeInterface;
 use App\Support\HasAdvancedFilter;
 use Carbon\Carbon;
-use Hash;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Contracts\Translation\HasLocalePreference;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -56,7 +56,7 @@ class User extends Authenticatable implements HasLocalePreference
         'email_verified_at',
         'created_at',
         'updated_at',
-        'deleted_at',
+        //'deleted_at',
     ];
 
     public function getIsAdminAttribute()

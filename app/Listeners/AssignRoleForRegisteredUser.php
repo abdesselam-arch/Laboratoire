@@ -39,7 +39,7 @@ class AssignRoleForRegisteredUser
         return $this->user->roles()->where("title", $name)->exists();
     }
 
-    protected function attachRole(string $name)
+    protected function attachRole($name)
     {
         if ($role = Role::where('title', $name)->first()) {
             $this->user->roles()->attach($role);

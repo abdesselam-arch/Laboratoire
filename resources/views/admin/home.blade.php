@@ -12,7 +12,9 @@
         </div>
 
         <div class="card-body">
-            <p class="pt-3">You are logged in!</p>
+            <p class="pt-3">QUI SOMMES-NOUS ?
+                Laboratoire ASM,
+                À votre service, biologistes, des secrétaires et techniciens formés aux techniques les plus modernes.</p>
         </div>
     </div>
 </div>
